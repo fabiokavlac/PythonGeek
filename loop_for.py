@@ -71,7 +71,7 @@ for _, letra in enumerate(nome):
 
 OBS: Quando não precisamos de um valor, podemos descartá-lo utilizando um underline (_)
 
-nome = 'Geek University'
+nome = 'kavlac'
 lista = [1, 3, 5, 7, 9]
 numeros = range(1, 10)  # Temos que transformar em uma lista
 
@@ -87,7 +87,50 @@ for n in range(1, qtd+1):
     soma = soma + num
 print(f'A soma é {soma}')
 
-nome = 'Geek University'
+nome = 'kavlac
+for letra in nome:
+    print(letra, end='')
+
+Tabela de Emojis Unicode: https://apps.timwhitlock.info/emoji/tables/unicode
+"""
+"""
+# Original: U+1F605
+# Modificado: U0001F605
+
+for _ in range(3):
+    for num in range(1, 11):
+        print('\U0001F605' * num)
+        
+"""
+"""
+nome = 'kavlac'
+lista = [1, 3, 5, 7, 9]
+numeros = range(1, 10)  # Temos que transformar em uma lista
+
+
+for valor in enumerate(nome):
+    print(valor)
+
+qtd = int(input('Quantas vezes esse loop deve rodar? '))
+soma = 0
+
+for n in range(1, qtd+1):
+    num = int(input(f'Informe o {n}/{qtd} valor: '))
+    soma = soma + num
+print(f'A soma é {soma}')
+
+"""
+"""
+nome = 'Kavlac'
+lista = [1, 3, 5, 7, 9]
+numeros = range(1, 10)  # Temos que transformar em uma lista
+
+
+for valor in enumerate(nome):
+    print(valor)
+"""
+"""
+nome = 'kavlac'
 for letra in nome:
     print(letra, end='')
 
@@ -97,6 +140,6 @@ Tabela de Emojis Unicode: https://apps.timwhitlock.info/emoji/tables/unicode
 # Original: U+1F605
 # Modificado: U0001F605
 
-for _ in range(3):
-    for num in range(1, 11):
+for _ in range(10):
+    for num in range(3, 11):
         print('\U0001F605' * num)
