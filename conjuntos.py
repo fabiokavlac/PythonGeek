@@ -202,7 +202,9 @@ print(so_java)
 
 # * Se os valores forem todos inteiros ou reais
 
-s = {1, 2, 3, 4, 5, 6}
+s = {1, 2, 3, 4, 5, 6, 0, 1}
+print(s)
+print(type(s))
 
 print(sum(s))
 print(max(s))
