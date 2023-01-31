@@ -88,6 +88,7 @@ def outra_funcao():
 
 print(outra_funcao())
 print(type(outra_funcao()))
+"""
 
 # Vamos criar uma função para jogar a moeda
 
@@ -102,7 +103,7 @@ def joga_moeda():
 
 
 print(joga_moeda())
-"""
+
 
 # Erros comuns na utilização do retorno, que na verdade nem é erro, mas sim codificação desnecessária.
 
@@ -115,3 +116,19 @@ def eh_impar():
 
 
 print(eh_impar())
+
+
+
+"""
+from random import random
+
+
+def joga_moeda():
+    # Gera um número pseudo-randômico entre 0 e 1
+    if random() > 0.5:
+        return 'Cara'
+    return 'Coroa'
+
+
+print(joga_moeda())
+"""
